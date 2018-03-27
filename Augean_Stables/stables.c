@@ -58,7 +58,6 @@ int		main(void) {
 	while (i < 42)
 	{
 		tmp = new_unrolled();
-		sleep(20);
 		while (tmp->count < 8)
 		{
 			tmp->values[tmp->count] = val++;
